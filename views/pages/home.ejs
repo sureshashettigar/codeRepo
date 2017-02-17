@@ -14,8 +14,9 @@
       </main>
         <footer>
         </footer>
+         <script src="https://lightningappdemo4-dev-ed.my.salesforce.com/lightning/lightning.out.js"/>
         <script>
-          var url = "<%= ouathLightningURL %>";
+          var url = "<%= lightningEndPointURI %>";
           var token = "Bearer "+"<%= oauthtoken %>";
           console.log(token);
             $Lightning.use("SEDreamin:SalesLeaderBoardVfApp", function() {
